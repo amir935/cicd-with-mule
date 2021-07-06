@@ -37,7 +37,7 @@
 				<workers>1</workers>
 				<workerType>Micro</workerType>
 				<applicationName>cicd-with-mule</applicationName>
-				<muleVersion>4.3</muleVersion>
+				<muleVersion>4.3.0</muleVersion>
 				</CloudHubDeployement>
 				</configuration>
 			</plugin>
