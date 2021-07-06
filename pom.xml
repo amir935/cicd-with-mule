@@ -35,7 +35,7 @@
 				<password>Amir122306</password>
 				<environment>Sandbox</environment>
 				<workerType>Micro</workerType>
-				<applicationName>cicd-With-mule</applicationName>
+				<applicationName>cicd-with-mule</applicationName>
 				<muleVersion>4.3</muleVersion>
 				</CloudHubDeployement>
 				</configuration>
