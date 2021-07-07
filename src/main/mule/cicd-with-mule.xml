@@ -12,6 +12,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<configuration-properties doc:name="Configuration properties" doc:id="bb94bd03-85db-4357-8189-395d06ec0684" file="dev.properties" />
 	<flow name="cicd-with-muleFlow" doc:id="4d4236f7-c7a7-4fe4-b220-2f097b438811" >
 		<http:listener doc:name="Listener" doc:id="5cd7c1e5-ba20-428a-96e8-ebe0c5efc767" config-ref="HTTP_Listener_config" path="/cicd"/>
-		<set-payload value='#["Hello cicd"]' doc:name="Set Payload" doc:id="f00d976a-d7ae-436e-943d-c1d9b6ec4c51" />
+		<set-payload value='#["Hello World"]' doc:name="Set Payload" doc:id="f00d976a-d7ae-436e-943d-c1d9b6ec4c51" />
 	</flow>
 </mule>
